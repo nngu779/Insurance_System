@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="nz.ac.auckland.se281.MainTest" time="0.376" tests="83" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/ngocngo/Desktop/MyFirstProgram/GitRepos/assignment1/assignment-1-CrystalN23/target/test-classes:/Users/ngocngo/Desktop/MyFirstProgram/GitRepos/assignment1/assignment-1-CrystalN23/target/classes:/Users/ngocngo/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/ngocngo/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/ngocngo/Desktop/MyFirstProgram/GitRepos/assignment1/assignment-1-CrystalN23/libs/codestyle.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="VN"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/ngocngo/Desktop/MyFirstProgram/GitRepos/assignment1/assignment-1-CrystalN23/target/surefire/surefirebooter12726739641834261862.jar /Users/ngocngo/Desktop/MyFirstProgram/GitRepos/assignment1/assignment-1-CrystalN23/target/surefire 2023-04-24T20-07-23_803-jvmRun1 surefire11775082203911939370tmp surefire_010561232399402542710tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/ngocngo/Desktop/MyFirstProgram/GitRepos/assignment1/assignment-1-CrystalN23/target/test-classes:/Users/ngocngo/Desktop/MyFirstProgram/GitRepos/assignment1/assignment-1-CrystalN23/target/classes:/Users/ngocngo/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/ngocngo/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/ngocngo/Desktop/MyFirstProgram/GitRepos/assignment1/assignment-1-CrystalN23/libs/codestyle.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/ngocngo"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-01-17"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/ngocngo/Desktop/MyFirstProgram/GitRepos/assignment1/assignment-1-CrystalN23"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="/Users/ngocngo/Desktop/MyFirstProgram/GitRepos/assignment1/assignment-1-CrystalN23/target/surefire/surefirebooter12726739641834261862.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="17.0.6+9-LTS-190"/>
+    <property name="user.name" value="ngocngo"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="13.3.1"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/ngocngo/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/nk/422svwhs3ddgbc1vxny6vpm00000gn/T/"/>
+    <property name="java.version" value="17.0.6"/>
+    <property name="user.dir" value="/Users/ngocngo/Desktop/MyFirstProgram/GitRepos/assignment1/assignment-1-CrystalN23"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/ngocngo/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.6+9-LTS-190"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="T1_xx_add_ignore_duplicate_added_later" classname="nz.ac.auckland.se281.MainTest$Task1" time="0.011"/>
+  <testcase name="T1_xx_add_success_after_invalid_age" classname="nz.ac.auckland.se281.MainTest$Task1" time="0.002"/>
+  <testcase name="T1_06_username_to_titlecase" classname="nz.ac.auckland.se281.MainTest$Task1" time="0.002"/>
+  <testcase name="T1_xx_ignore_short_name_to_titlecase" classname="nz.ac.auckland.se281.MainTest$Task1" time="0.004"/>
+  <testcase name="T1_02_add_one_client" classname="nz.ac.auckland.se281.MainTest$Task1" time="0.004"/>
+  <testcase name="T1_07_check_unique_names" classname="nz.ac.auckland.se281.MainTest$Task1" time="0.007"/>
+  <testcase name="T1_xx_add_ignore_duplicate" classname="nz.ac.auckland.se281.MainTest$Task1" time="0.004"/>
+  <testcase name="T1_xx_ignore_invalid_age_negative" classname="nz.ac.auckland.se281.MainTest$Task1" time="0.002"/>
+  <testcase name="T1_03_add_one_client_with_info" classname="nz.ac.auckland.se281.MainTest$Task1" time="0.004"/>
+  <testcase name="T1_04_ignore_short_name" classname="nz.ac.auckland.se281.MainTest$Task1" time="0.005"/>
+  <testcase name="T1_xx_add_five_clients" classname="nz.ac.auckland.se281.MainTest$Task1" time="0.006"/>
+  <testcase name="T1_01_empty_database" classname="nz.ac.auckland.se281.MainTest$Task1" time="0.002"/>
+  <testcase name="T1_05_add_two_clients" classname="nz.ac.auckland.se281.MainTest$Task1" time="0.003"/>
+  <testcase name="T2_05_unload_profile" classname="nz.ac.auckland.se281.MainTest$Task2" time="0.003"/>
+  <testcase name="T2_06_unload_invalid_profile" classname="nz.ac.auckland.se281.MainTest$Task2" time="0.005"/>
+  <testcase name="T2_04_load_profile_switch_profiles" classname="nz.ac.auckland.se281.MainTest$Task2" time="0.003"/>
+  <testcase name="T2_07_delete_profile_found" classname="nz.ac.auckland.se281.MainTest$Task2" time="0.003"/>
+  <testcase name="T2_02_load_profile_not_found" classname="nz.ac.auckland.se281.MainTest$Task2" time="0.002"/>
+  <testcase name="T2_01_load_profile_found" classname="nz.ac.auckland.se281.MainTest$Task2" time="0.001"/>
+  <testcase name="T2_08_delete_profile_while_loaded" classname="nz.ac.auckland.se281.MainTest$Task2" time="0.002"/>
+  <testcase name="T2_03_load_profile_found_display" classname="nz.ac.auckland.se281.MainTest$Task2" time="0.002"/>
+  <testcase name="T3_02_add_home_policy_loaded_profile" classname="nz.ac.auckland.se281.MainTest$Task3" time="0.006"/>
+  <testcase name="T3_07_two_policies_one_profile_ignore_zero_policy_total_costs" classname="nz.ac.auckland.se281.MainTest$Task3" time="0.004"/>
+  <testcase name="T3_05_three_policies_one_profile" classname="nz.ac.auckland.se281.MainTest$Task3" time="0.003"/>
+  <testcase name="T3_03_add_car_policy_loaded_profile" classname="nz.ac.auckland.se281.MainTest$Task3" time="0.002"/>
+  <testcase name="T3_01_cannot_add_policy_without_loaded_profile" classname="nz.ac.auckland.se281.MainTest$Task3" time="0.001"/>
+  <testcase name="T3_06_life_policy_over_age_limit" classname="nz.ac.auckland.se281.MainTest$Task3" time="0.002"/>
+  <testcase name="T3_04_two_different_policies_home_life_one_profile" classname="nz.ac.auckland.se281.MainTest$Task3" time="0.002"/>
+  <testcase name="Home_Policy_Tests_Three_Policies" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.002"/>
+  <testcase name="TY_09_Final_Task_LoadingProfiles" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.003"/>
+  <testcase name="TY_06_Final_Task_Check_UserName" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.002"/>
+  <testcase name="T3_M01_create_car_policy_age_test" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.004"/>
+  <testcase name="Car_Policy_Tests_One_Policy_Under25" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.002"/>
+  <testcase name="T2_M01_load_invalid_profile_while_already_loaded" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.003"/>
+  <testcase name="TY_18_Final_Task_DELETE_PROFILE" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.001"/>
+  <testcase name="TY_21_Final_Task_CreatePolicy" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.003"/>
+  <testcase name="Car_Policy_Tests_Three_Policies" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.002"/>
+  <testcase name="Life_Policy_Too_Old" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.002"/>
+  <testcase name="TY_23_Final_Task_CreatePolicy" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.003"/>
+  <testcase name="TY_08_Final_Task_Check_Age" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.001"/>
+  <testcase name="TY_25_Final_Task_CreatePolicy" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.002"/>
+  <testcase name="TY_07_Final_Task_Check_UserName" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.002"/>
+  <testcase name="TY_01_Final_Task_print_db" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.001"/>
+  <testcase name="TY_02_Final_Task_print_db" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.001"/>
+  <testcase name="Home_Policy_Tests_Two_Policies" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.002"/>
+  <testcase name="TY_03_Final_Task_print_db" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.002"/>
+  <testcase name="Car_Policy_Tests_Three_Policies_Over25" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.002"/>
+  <testcase name="TY_19_Final_Task_DELETE_PROFILE" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.002"/>
+  <testcase name="Full_Test_1" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.006"/>
+  <testcase name="T2_M04_delete_profile_not_found" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.002"/>
+  <testcase name="T2_M02_create_profile_when_profile_loaded" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.002"/>
+  <testcase name="TY_14_Final_Task_LoadingProfiles" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.005"/>
+  <testcase name="Car_Policy_Tests_One_Policy_Over25" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.002"/>
+  <testcase name="TY_13_Final_Task_LoadingProfiles" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.004"/>
+  <testcase name="TY_12_Final_Task_LoadingProfiles" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.004"/>
+  <testcase name="TY_04_Final_Task_Create_Profiles" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.001"/>
+  <testcase name="Home_Policy_Tests_Three_Policies_Type2" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.002"/>
+  <testcase name="Car_Policy_Tests_Two_Policies_Under25" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.002"/>
+  <testcase name="TY_11_Final_Task_LoadingProfiles" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.002"/>
+  <testcase name="TY_20_Final_Task_CreatePolicy" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.001"/>
+  <testcase name="Car_Policy_Tests_Three_Policies_Type2" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.002"/>
+  <testcase name="Car_Policy_Tests_Two_Policies" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.005"/>
+  <testcase name="TY_15_Final_Task_UnloadingProfiles" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.001"/>
+  <testcase name="TY_16_Final_Task_UnloadingProfiles" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.002"/>
+  <testcase name="TY_22_Final_Task_CreatePolicy" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.003"/>
+  <testcase name="TY_10_Final_Task_LoadingProfiles" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.002"/>
+  <testcase name="TY_24_Final_Task_CreatePolicy" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.001"/>
+  <testcase name="Car_Policy_Tests_Two_Policies_Over25" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.002"/>
+  <testcase name="Car_Policy_Tests_One_Policy_Type2" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.001"/>
+  <testcase name="Home_Policy_Tests_One_Policy" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.002"/>
+  <testcase name="Home_Policy_Tests_Two_Policies_Type2" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.002"/>
+  <testcase name="T2_M03_create_profile_after_profile_loaded" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.002"/>
+  <testcase name="TY_26_Final_Task_CreatePolicy" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.13"/>
+  <testcase name="Car_Policy_Tests_One_Policy" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.001"/>
+  <testcase name="TY_05_Final_Task_Check_UserName" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.002"/>
+  <testcase name="Car_Policy_Tests_Three_Policies_Under25" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.002"/>
+  <testcase name="Home_Policy_Tests_One_Policy_Type2" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.002"/>
+  <testcase name="Car_Policy_Tests_Two_Policies_Type2" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.001"/>
+  <testcase name="TY_17_Final_Task_DELETE_PROFILE" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.003"/>
+  <testcase name="T3_M03_only_one_life_policy_per_profile" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.002"/>
+  <testcase name="JoshT_TY2_02_delete_several_profiles_while_profile_is_loaded" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.002"/>
+  <testcase name="JoshT_TY2_01_delete_profile_while_other_profile_is_loaded" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.004"/>
+  <testcase name="T3_M02_maximum_age_boundary_life_policy" classname="nz.ac.auckland.se281.MainTest$YourTests" time="0.001"/>
+</testsuite>

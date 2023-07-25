@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: nz.ac.auckland.se281.MainTest
+-------------------------------------------------------------------------------
+Tests run: 83, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.376 s - in nz.ac.auckland.se281.MainTest
